@@ -1,0 +1,7 @@
+git clone https://github.com/ochen1/insanely-fast-whisper-cli
+cd insanely-fast-whisper-cli/
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python insanely-fast-whisper.py --model openai/whisper-base.en --device cpu /home/pradyumn/Documents/sample1.wav
+
